@@ -1,0 +1,419 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1 {
+    
+    font-family: 'Italianno';
+    font-weight: 200px;
+    
+}
+
+
+.container{
+    width: 1920px;
+    
+    background-color: black;
+    
+}
+
+.panel1{
+    background-color: #4A2B22; 
+    width: 1920px;
+    height: 1080px;   
+}
+
+.hodinky1 {
+    width: 1920px;
+    filter: opacity(25%);
+}
+
+.slogan {
+    color: #D7D0C0;
+    position: absolute;
+    bottom: 450px;
+    font-size: 200px;
+    left: 395px;
+}
+
+.panel2{
+    background-color: black;
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+    background-image: url(../img/Snímek\ obrazovky\ 2024-04-28\ 142809.png);
+    background-repeat: no-repeat;
+    background-size: 1920px, 1080px;
+}
+
+.list {
+    font-family: 'Italianno';
+    font-size: 55px;
+    color: #9D7B6F;
+    position: relative;
+    top: 300px;
+    left: 1000px;
+    width: 800px;
+}
+
+.godiny1 {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background-color: #ededed;
+    
+}
+
+.nadpis1 {
+    position: absolute;
+    color: black;
+    font-size: 95px;
+    left: 1000px;
+    width: 800px;
+    padding-left: 150px;
+}
+
+.text1 {
+    position: absolute;
+    color: black;
+    font-size: 35px;
+    width:  800px;
+    left: 1000px;
+    padding-top: 300px;
+    padding-left: 150px;
+}
+
+.prechod1 {
+    height: 500px;
+    background-image: linear-gradient(#ededed, #DBB68B);
+    
+}
+
+.godiny2 {
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #DBB68B;
+    
+}
+
+.blackandyellow {
+    position: relative;
+    left: 1000px;
+}
+
+.nadpis2 {
+    position: absolute;
+    color: black;
+    font-size: 95px;
+    width: 800px;
+    padding-left: 150px;
+}
+
+.text2 {
+    position: absolute;
+    color: black;
+    font-size: 35px;
+    width:  1100px;
+    padding-top: 300px;
+    padding-left: 150px;
+}
+
+.prechod2 {
+    height: 500px;
+    background-image: linear-gradient(#dBB68B, #46729B);
+    
+}
+
+.godiny3 {
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #46729B;
+    
+}
+
+.nadpis3 {
+    position: absolute;
+    color: black;
+    font-size: 95px;
+    left: 1000px;
+    width: 800px;
+    padding-left: 150px;
+}
+
+.text3 {
+    position: absolute;
+    color: black;
+    font-size: 35px;
+    width:  800px;
+    left: 1000px;
+    padding-top: 300px;
+    padding-left: 150px;
+}
+
+.prechod3 {
+    height: 500px;
+    background-image: linear-gradient(#46729B, #003925);
+}
+
+.godiny4 {
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #003925;
+    
+}
+
+.gold1 {
+    position: relative;
+    left: 1000px;
+}
+
+.nadpis4 {
+    position: absolute;
+    color: white;
+    font-size: 95px;
+    width: 800px;
+    padding-left: 150px;
+}
+
+.text4 {
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    width: 1100px;
+    padding-top: 300px;
+    padding-left: 150px;
+}
+
+.prechod4 {
+    height: 500px;
+    background-image: linear-gradient(#003925, black);
+}
+
+.panel3{
+    background-color: black;
+}
+
+.clockwork {
+    display: flex;
+    flex-direction: row;
+    padding-top: 150px;
+    padding-left: 110px;
+    
+}
+
+.watch {
+    width: 550px;
+    padding: 50px;
+    transition: 0.5 ease;   
+}
+
+.watch:hover {
+    opacity: 0.3;
+}
+
+.gears {
+    width: 550px;
+    padding: 50px;
+    transition: 0.5 ease;
+    
+}
+
+.gears:hover {
+    opacity: 0.3;
+}
+
+.bracket {
+    width: 550px;
+    padding: 50px;
+    transition: 0.5 ease;   
+}
+
+.bracket:hover {
+    opacity: 0.3;
+}
+
+.clockworknadpis {
+    position: absolute;
+    color: white;
+    font-size: 95px;
+    margin-bottom: 25px;
+    padding-left: 400px;
+}
+
+.panel4{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: black;
+    
+}
+
+
+.trucktext1 {
+    position: absolute;
+    font-size: 35px;
+    width: 1800px;
+    left: 100px;
+    padding-top: 150px;
+}
+
+.trucknadpis1 {
+    position: absolute;
+    font-size: 95px;
+    width: 800px;
+    left: 100px;
+    padding-top: 350;
+}
+
+.trucktext2 {
+    position: absolute;
+    font-size: 35px;
+    width: 1800px;
+    left: 100px;
+    padding-top: 850px;
+}
+
+.trucknadpis2 {
+    position: absolute;
+    font-size: 95px;
+    width: 800px;
+    left: 100px;
+    padding-top: 700px;
+    
+}
+
+.trucktext3 {
+    position: absolute;
+    font-size: 35px;
+    width: 1800px;
+    left: 100px;
+    padding-top: 1650px;
+}
+
+.trucknadpis3 {
+    position: absolute;
+    font-size: 95px;
+    width: 800px;
+    left: 100px;
+    padding-top: 1500px;
+    
+    
+}
+
+.waypoint1 {
+    color: black;
+}
+
+.waypoint2 {
+    position: absolute;
+    top: 8800px;
+}
+
+.waypoint3 {
+    position: absolute;
+    top: 9500px;
+}
+
+.panel5{
+    margin-top: 400px;
+    margin-bottom: 350px;
+    background-color: black;
+    color: white;
+    height: 1900px;
+}
+
+.changingblack {
+    position: relative;
+    left: 560px;
+    margin: 50px;
+    margin-bottom: 150px;
+    width: 600px;
+}
+
+.changingblacktext {
+    position: absolute;
+    font-size: 35px;
+    width: 1800px;
+    left: 100px;
+    padding-top: 925px;
+}
+
+.changingblacknadpis {
+    position: absolute;
+    font-size: 95px;
+    width:800px;
+    left: 700px;
+    padding-top: 775px;
+    
+}
+
+.panel6{
+    color: white;
+    background-color: black;
+    height: 1000px;
+    margin-bottom: 150px;
+}
+
+
+
+.bettersilver{
+    width: 700px;
+    margin: 150px;
+}
+
+.bettersilvertext {
+    position: absolute;
+    font-size: 35px;
+    width: 800px;
+    left: 1050px;
+    padding-top: 300px;
+}
+
+.bettersilvernadpis {
+    position: absolute;
+    font-size: 95px;
+    width:800px;
+    left: 1050px;
+    padding-top: 150px;
+    
+}
+
+.panel7{
+    background-color: white;
+}
+
+.ikona1 {
+    position: relative;
+    width: 100px;
+    right: 200px;
+}
+
+.ikona2 {
+    position: relative;
+    width: 100px;
+    
+}
+
+.ikona3 {
+    position: relative;
+    width: 100px;
+    left: 200px;
+}
+
+.ikons {
+    position: absolute;
+    left: 1200px;
+}
+
+.panel8{
+    margin-top: 1px;
+    padding-top: 30px;
+    font-size: 50px;
+    padding-left: 100px;
+    background-color: white;
+    margin-bottom: 300px;
+}

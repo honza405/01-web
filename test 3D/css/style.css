@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 10000px;
+  }
+  
+.container {
+    transform-style: preserve-3d;
+    perspective: 100px;
+    position: fixed;
+    left: 50%;
+    top: 50px;
+}
+  
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}

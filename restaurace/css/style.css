@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0%;
+}
+html {
+    font-size: 30px;
+}
+body {
+    font-family: 'Anton', sans-serif;
+    background-color:#c9c6c6 ;
+    color:    #1e1e24
+}
+a {
+    text-decoration: none;
+}
+.container {
+    margin: auto;
+    max-width: 10000px;
+    padding-bottom: 2rem;
+}
+
+.navbar {   
+    padding: 24px 0;
+    position: relative;
+    width: 100%;
+    background-color: #1e1e24;
+}
+.navbar .container {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;    
+}
+
+
+.navbar div a {
+    padding: 0 16px;
+}
+.navbar a {
+    color: #fff8f0;
+   
+}
+
+.navbar:hover {
+    color: #ffcf99;
+}
+
+.nadpis{
+    border-radius: 25px;
+    background-color: #92140c;
+    padding: 1%;
+    
+}
+.nadpis{
+    background-color: #c9c6c6;
+    padding: 1%;
+    
+}
+
+.nadpis {
+    border-radius: 25px;
+    background: #152848;
+    padding: 1%;
+    
+  }
+
+.banner {
+    display: flex;
+    gap: 2rem;
+}
+
+.banner .left
+.banner .right {
+    flex: 0 0 flex;
+    width: auto;
+    border-radius: 25px;
+}
+.banner .left img{
+    
+    padding: 15px;
+    height: auto;
+    width: auto;
+}
+
+.banner .right img{
+    padding-left: 200px;
+}
+
+.fotky .left
+.fotky .right{
+    display: table-column;
+    gap: 2rem;
+    size: 50%;
+}
+
+.fotky .left img{
+    size: 500px 500px;
+}
+
+.fotky .right img{
+    size: 700px 700px;
+}
+
+.banner .right{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.banner h1 {
+    
+    color: #1e1e24;
+    font-size: 3rem;
+}
+
+.aboutTheDrunkenClam {
+    padding-left: 100px;
+}
+
+.contacts {
+    background-color: #1e1e24;
+    color: #c9c6c6;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    padding-left: 5rem;
+}
+
+.menu .left
+.menu .right{
+    display: table-column;
+    gap: 2rem;
+    size: 200px 200px;
+    padding: 2rem;
+}
+
+.menu .left{
+    padding-left: 3rem;
+    font-size: 2rem;
+}
+
+.menu .right{
+    
+    padding-left: 6rem;
+    font-size: 2rem;
+   
+}
+
+.menu {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: row;
+    
+}
+
+
+
+.flex {
+    display: flex;
+}
+
+.flex .third {
+    flex: 0 0 auto;
+    width: 33%;
+    text-align: center;
+}

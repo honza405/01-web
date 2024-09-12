@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    color: white;
+}
+
+h2 {
+    font-family: sans-serif ;
+    color: black;
+    text-align: right;
+    font-weight: 800;
+    font-size: 60px;
+    letter-spacing: 0px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.nadpis {
+    position: relative;
+    left: 1700px;
+    top: 340px;
+    
+}
+
+.veverka {
+    width: 400px;
+    position: relative;
+    top: -160px;
+    left: 130px;
+}
+
+.red {
+    position: relative;
+    left: 720px;
+    top: -50px;
+}
+
+.heart {
+    position: relative;
+    width: 70px;
+    bottom: 570px;
+    right: 40px;
+}

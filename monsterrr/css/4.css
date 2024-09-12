@@ -1,0 +1,285 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #1A0D42;
+    width: 1920px;
+    height: 1080px;
+    
+}
+
+@media(max-width: 415px) {
+    .container {
+        width: 415px;
+        height: 915px;
+    }
+}
+
+.navbar {
+    background-color: #1A0D42;
+}
+
+.logo {
+    top: 33px;
+    left: 40px;
+    position: absolute;
+}
+
+.nav {
+    position: absolute;
+    left: 1116px;
+    top: 49px;
+    right: 333px;
+    display: flex;
+    flex-direction: row ;
+}
+
+@media(max-width: 415px) {
+    .nav {
+        left: 15px;
+        top: 115px;
+    }
+}
+
+.home_odkaz {
+    text-decoration: none;
+    font-family: K2D, sans-serif;
+    color: gray;
+    font-size: 25px;
+    padding-right: 71px;
+
+}
+
+@media(max-width: 415px) {
+    .home_odkaz {
+        padding-right: 15px;
+        font-size: 19px;
+    }
+}
+
+.about_odkaz {
+    text-decoration: none;
+    font-family: K2D, sans-serif;
+    color: gray;
+    font-size: 25px;
+    padding-right: 74px;
+}
+
+@media(max-width: 415px) {
+    .about_odkaz {
+        padding-right: 15px;
+        font-size: 19px;
+    }
+}
+
+.history_odkaz {
+    text-decoration: none;
+    font-family: K2D, sans-serif;
+    color: gray;
+    font-size: 25px;
+    padding-right: 78px;
+}
+
+@media(max-width: 415px) {
+    .history_odkaz {
+        padding-right: 15px;
+        font-size: 19px;
+    }
+}
+
+.contact_odkaz {
+    text-decoration: none;
+    font-family: K2D, sans-serif;
+    color: gray;
+    font-size: 25px;
+    padding-right: 79px;
+}
+
+@media(max-width: 415px) {
+    .contact_odkaz {
+        padding-right: 15px;
+        font-size: 19px;
+    }
+}
+
+.buy_odkaz {
+    text-decoration: none;
+    font-family: K2D, sans-serif;
+    color: gray;
+    font-size: 25px;
+
+}
+
+@media(max-width: 415px) {
+    .buy_odkaz {
+        font-size: 19px;
+    }
+}
+
+.product {
+    position: absolute;
+    left: 182px;
+    top: 134px;
+}
+
+@media(max-width: 415px) {
+    .product {
+        display: none;
+    }
+}
+
+.contactus {
+    font-family: K2D, sans-serif;
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    left: 1199px;
+    top: 272px;
+}
+
+@media(max-width: 415px) {
+    .contactus {
+        left: 40px;
+        top: 170px;
+        font-size: 55px;
+    }
+}
+
+.name {
+    font-family: K2D, sans-serif;
+    font-size: 25px;
+    color: #cdcdcd;
+    position: absolute;
+    left: 1199px;
+    top: 433px;
+}
+
+@media(max-width: 415px) {
+    .name {
+        left: 50px;
+        top: 300px;
+    }
+}
+
+.line1 {
+    position: absolute;
+    left: 1199px;
+    top: 481px;
+    width: 433px;
+    height: 3px;
+    background-image: linear-gradient(#8523f7, #1d294a)
+}
+
+@media(max-width: 415px) {
+    .line1 {
+        left: 20px;
+        top: 340px;
+        width: 375px;
+    }
+}
+
+.email {
+    font-family: K2D, sans-serif;
+    font-size: 25px;
+    color: #cdcdcd;
+    position: absolute;
+    left: 1199px;
+    top: 499px;
+}
+
+@media(max-width: 415px) {
+    .email {
+        left: 50px;
+        top: 400px;
+    }
+}
+
+.line2 {
+    position: absolute;
+    left: 1199px;
+    top: 547px;
+    width: 433px;
+    height: 3px;
+    background-image: linear-gradient(#8523f7, #1d294a)
+}
+
+@media(max-width: 415px) {
+    .line2 {
+        left: 20px;
+        top: 440px;
+        width: 375px;
+    }
+}
+
+.message {
+    font-family: K2D, sans-serif;
+    font-size: 25px;
+    color: #cdcdcd;
+    position: absolute;
+    left: 1199px;
+    top: 570px;
+}
+
+@media(max-width: 415px) {
+    .message {
+        left: 50px;
+        top: 500px;
+    }
+}
+
+.line3 {
+    position: absolute;
+    left: 1199px;
+    top: 689px;
+    width: 433px;
+    height: 3px;
+    background-image: linear-gradient(#8523f7, #1d294a)
+}
+
+@media(max-width: 415px) {
+    .line3 {
+        left: 20px;
+        top: 540px;
+        width: 375px;
+    }
+}
+
+.btnsend {
+    font-family: K2D, sans-serif;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    left: 1199px;
+    top: 725px;
+    width: 433px;
+    height: 83px;
+    border-radius: 50px;
+    border-width: 0px;
+    background: rgb(205,1,252);
+    background: linear-gradient(90deg, rgba(205,1,252,1) 0%, rgba(161,22,249,1) 21%, rgba(81,1,170,1) 100%);
+}
+
+@media(max-width: 415px) {
+    .btnsend {
+        font-size: 20px;
+        height: 50px;
+        width: 333px;
+        left: 40px;
+        top: 600px;
+    }
+}
+
+.bg5 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+@media(max-width: 415px) {
+    .bg5 {
+        display: none;
+    }
+}

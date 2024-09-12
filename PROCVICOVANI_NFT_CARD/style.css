@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0%;
+    
+}
+
+.bckgrnd {
+    flex-direction: column;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(217, 54%, 11%);
+    justify-content: center;
+    display: flex;
+    
+}
+
+.napdis {
+    
+}
+
+.text {
+    color: hsl(215, 51%, 70%);
+}
+
+.sipka {
+    color: hsl(178, 100%, 50%)
+}
+
+.dny {
+
+}
+

@@ -1,0 +1,25 @@
+* {
+    margin-top: 0;
+    padding: 0;
+    box-sizing:border-box;
+    
+    
+}
+
+.navbar{
+    padding-left: 20rem;
+    padding-top: 5rem;
+}
+
+.pozadi {
+    align-items: center;
+    width: max-content;
+    
+    
+    
+}
+
+.zena {
+    display: flex;
+    padding-left: auto;
+}

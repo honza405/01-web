@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 30px;
+}
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: #152848;
+    color: #c9c6c6   
+}
+a {
+    text-decoration: none;
+}
+img {
+    height: flex;
+    max-width: 100%;
+}
+.container {
+    margin: auto;
+    max-width: 1300px;
+}
+
+.navbar {   
+    padding: 24px 0;
+    position: absolute;
+    width: 100%;
+    background-color: #102038;
+}
+.navbar .container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;    
+}
+.navbar div a {
+    padding: 0 16px;
+}
+.navbar a {
+    color: #ffffff;
+   
+}
+
+.navbar:hover {
+    color: #ffffff;
+}
+
+.nadpis{
+    background-color: #c9c6c6;
+    padding: 1%;
+    
+}
+
+.nadpis {
+    border-radius: 25px;
+    background: #152848;
+    padding: 1%;
+    
+  }
+
+.banner {
+    background-image: url(../images/hora.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 800px;
+}
+
+.banner h1 {
+    color: #c9c6c6;
+    font-size: 3rem;
+}
+
+
+section {
+    padding: 4rem 0;
+}
+
+section h2{
+    font-size: 2rem;
+    margin: 1.2rem 0;
+    text-align: start;
+
+}
+
+.zalibyAKonicky {
+    display: flex;
+    gap: 2rem;
+
+    
+}
+
+.zalibyAKonicky .left ,
+.zalibyAKonicky .right {
+    flex: 0 0 flex;
+    width: 50%;
+    border-radius: 25px;
+}
+
+.snyACile {
+    display: flex;
+    gap: 2rem;
+}
+
+.snyACile .left,
+.snyACile .right {
+    flex: 0 0 flex;
+    width: 50%;
+}
+
+.zakladniInfo {
+    display: flex;
+    gap: 2rem;
+
+}
+
+.zakladniInfo .left,
+.zakladniInfo .right {
+    flex: 0 0 auto;
+    width: 50%;
+}
+.tvorba {
+    display: flex;
+    gap: 2rem;
+}
+.tvorba .left,
+.tvorba .right {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+
+
+
+
+
+.contribute {
+    background-color: rgb(209, 80, 48);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.contribute h2 {
+    color: #ffffff;
+}
+
+.contribute .btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 2px solid #ffffff;
+    color:#ffffff;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all .3s linear;
+}
+.contribute .btn:hover {
+    color:rgb(209, 80, 48);
+    background-color: #ffffff;
+}

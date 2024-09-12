@@ -1,0 +1,391 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+@media(max-width: 415px) {
+    body {
+        overflow: auto;
+    }
+}
+
+.container {
+    background-color: #1A0D42;
+    width: 1920px;
+    height: 1080px;
+}
+
+@media(max-width: 412px) {
+    .container {
+        width: 412px;
+        height: 1400px;
+        
+    }
+}
+
+
+.navbar {
+    background-color: #1A0D42;
+}
+
+.bordel1 {
+    position: absolute;
+    left: 30px;
+    top: 93px;
+    
+}
+
+
+@media(max-width: 415px) {
+    .bordel1 {
+        left: 5px;
+        top: 300px;
+        width: 450px;
+    }
+}
+.can1 {
+    position: relative;
+    width: 450px;
+    margin-left: 100px;
+    margin-top: 150px;
+    margin-bottom: 500px;
+}
+
+@media(max-width: 415px) {
+    .can1 {
+        position: absolute;
+        margin-bottom: 0px;
+        margin-left: 0;
+        margin-top: 0;
+        width: 350px;
+        left: 35px;
+        top: 300px;
+    }
+}
+
+
+.play {
+    position: absolute;
+    left: 609px;
+    top: 472px;
+    width: 150px;
+}
+
+.logo {
+    top: 33px;
+    left: 40px;
+    position: absolute;
+}
+
+.nav {
+    position: absolute;
+    left: 856px;
+    top: 49px;
+    right: 333px;
+    display: flex;
+    flex-direction: row ;
+}
+
+@media(max-width: 415px) {
+    .nav {
+        left: 15px;
+        top: 115px;
+    }
+}
+
+.home_odkaz {
+    text-decoration: none;
+    font-family: K2D, sans-serif;
+    color: gray;
+    font-size: 25px;
+    padding-right: 71px;
+
+}
+
+@media(max-width: 415px) {
+    .home_odkaz {
+        padding-right: 15px;
+        font-size: 19px;
+    }
+}
+
+.about_odkaz {
+    text-decoration: none;
+    font-family: K2D, sans-serif;
+    color: gray;
+    font-size: 25px;
+    padding-right: 74px;
+}
+
+@media(max-width: 415px) {
+    .about_odkaz {
+        padding-right: 15px;
+        font-size: 19px;
+    }
+}
+
+.history_odkaz {
+    text-decoration: none;
+    font-family: K2D, sans-serif;
+    color: gray;
+    font-size: 25px;
+    padding-right: 78px;
+}
+
+@media(max-width: 415px) {
+    .history_odkaz {
+        padding-right: 15px;
+        font-size: 19px;
+    }
+}
+
+.contact_odkaz {
+    text-decoration: none;
+    font-family: K2D, sans-serif;
+    color: gray;
+    font-size: 25px;
+    padding-right: 79px;
+}
+
+@media(max-width: 415px) {
+    .contact_odkaz {
+        padding-right: 15px;
+        font-size: 19px;
+    }
+}
+
+.buy_odkaz {
+    text-decoration: none;
+    font-family: K2D, sans-serif;
+    color: gray;
+    font-size: 25px;
+
+}
+
+@media(max-width: 415px) {
+    .buy_odkaz {
+        font-size: 19px;
+    }
+}
+
+.left {
+    position: absolute;
+}
+
+@media(max-width:415px) {
+    .left, .right {
+        width: 0px;
+    }
+}
+.right {
+    position: absolute;
+    left: 1737px;
+}
+
+.energy {
+    width: 677px;
+    font-family: K2D, sans-serif;
+    font-size: 100px;
+    font-weight: 100px;
+    color: white;
+    position: absolute;
+    left: 844px;
+    top: 246px;
+    right: 399px;
+}
+
+@media(max-width: 415px) {
+    .energy {
+        width: 400px;
+        font-size: 50px;
+        left: 40px;
+        top: 175px;
+    }
+}
+
+
+.details {
+    position: absolute;
+    left: 856px;
+    top: 527px;
+}
+
+.buynow {
+    position: absolute;
+    left: 1125px;
+    top: 527px;
+}
+
+.line1 {
+    position: absolute;
+    left: 844px;
+    top: 677px;
+    width: 677px;
+    height: 3px;
+    background-image: linear-gradient(#8523f7, #1d294a)
+}
+
+.detailss {
+    font-family: K2D, sans-serif;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left: 856px;
+    top: 527px;
+    width: 248px;
+    height: 100px;
+    border-radius: 50px;
+    border-width: 0px;
+    background: rgb(205,1,252);
+    background: linear-gradient(90deg, rgba(205,1,252,1) 0%, rgba(161,22,249,1) 21%, rgba(81,1,170,1) 100%);
+}
+
+@media(max-width: 415px) {
+    .detailss {
+        font-size: 25px;
+        height: 70px;
+        width: 180px;
+        left: 15px;
+        top: 850px;
+    }
+}
+
+.buynoww {
+    font-family: K2D, sans-serif;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left: 1125px;
+    top: 527px;
+    width: 248px;
+    height: 100px;
+    border-radius: 50px;
+    border-width: 4px;
+    background-color: #1A0D42;
+    border-color: rgb(205,1,252);
+    border-color: linear-gradient(90deg, rgba(205,1,252,1) 0%, rgba(133,35,247,1) 100%);
+}
+
+@media(max-width: 415px) {
+    .buynoww {
+        font-size: 25px;
+        height: 70px;
+        width: 180px;
+        left: 215px;
+        top: 850px;
+    }
+}
+
+.trio {
+    background-color: #1A0D42;
+}
+
+.groupblesk {
+    position: absolute;
+    left: 820px;
+    top: 742px;
+}
+
+@media(max-width: 415px) {
+    .groupblesk {
+        left: 85px;
+        top: 950px;
+    }
+}
+
+.energyblesk {
+    position: absolute;
+    left: 100px;
+    top: 0;
+    font-family: K2D, sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.textblesk {
+    position: absolute;
+    left: 100px;
+    top: 35px;
+    width: 148px;
+    height: 60px;
+    font-family: K2D, sans-serif;
+    font-size: 15px;
+    color: #b9b8b8;
+}
+
+.grouppower {
+    position: absolute;
+    left: 1080px;
+    top: 742px;
+}
+
+@media(max-width: 415px) {
+    .grouppower {
+        left: 85px;
+        top: 1100px;
+    }
+}
+
+.power {
+    position: absolute;
+    left: 100px;
+    top: 0;
+    font-family: K2D, sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.textpower {
+    position: absolute;
+    left: 100px;
+    top: 35px;
+    width: 148px;
+    height: 60px;
+    font-family: K2D, sans-serif;
+    font-size: 15px;
+    color: #b9b8b8;
+}
+
+.groupresist {
+    position: absolute;
+    left: 1347px;
+    top: 742px;
+}
+
+@media(max-width: 415px) {
+    .groupresist {
+        left: 70px;
+        top: 1250px;
+    }
+}
+
+.resist {
+    position: absolute;
+    left: 115px;
+    top: 0;
+    font-family: K2D, sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.textresist {
+    position: absolute;
+    left: 115px;
+    top: 35px;
+    width: 148px;
+    height: 60px;
+    font-family: K2D, sans-serif;
+    font-size: 15px;
+    color: #b9b8b8;
+}
+
+.nav2 {
+    position: absolute;
+    left: 856px;
+    top: 1014px;
+}

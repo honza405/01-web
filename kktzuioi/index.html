@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formuláře</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container"></div>
+        <h1>HTML formuláře</h1>
+
+        <form action="" method="post" enctype="multipart/form-data">
+            <label for="jmeno">Toto je štítek</label>
+            <input id="jmeno" type="text" name="input-box" required>
+
+            <br>
+            <label for="konicek1">
+                <input type="checkbox" name="konicek1" id="konicek1">
+                Webdesign
+            </label>
+
+            <label for="konicek2">
+                <input type="checkbox" name="konicek2" id="konicek2">
+                Grafika
+            </label>
+
+            <label for="konicek3">
+                <input type="checkbox" name="konicek3" id="konicek3">
+                UX/UI
+            </label>
+            <br>
+            <label for="barva">Vyber barvu</label>
+            <input type="color" id="barva" name="barva">
+            <br>
+
+            <label for="narozeni">Datum narození</label>
+            <input type="date" id="narozeni" name="narozeni">
+            <br>           
+            
+            <button type="submit">
+                Odeslat
+            </button>
+        </form>
+</body>
+</html>

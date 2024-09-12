@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>   
+<div class="container">
+    <h1 class="naspis">HTML Forlumáře</h1>
+
+    <div class="jmeno2">
+        <label for="jmeno">Vaše jméno</label>
+        <div class="jmeno">
+            <input type="text" name="jmeno" id="jmeno" placeholder="např. Jonáš">
+        </div>
+    </div>
+    <div class="prijmeni2">
+        <label for="prijmeni">Vaše příjmení</label>
+        <div class="prijmeni">
+            <input type="text" name="prijmeni" id="prijmeni" placeholder="např. Novák">
+        </div>
+    </div>
+    <div class="email2">
+        <label for="email">Váš email</label>
+        <div class="email">
+            <input type="email" name="email" id="email" placeholder="např. jonas@novak.cz">
+        </div>
+    </div>
+    <div class="heslo2">
+        <label for="heslo">Vaše heslo</label>
+        <div class="heslo">
+            <input type="password" name="heslo" id="heslo" placeholder="****">
+        </div>
+    </div>
+    <div class="narozeni2">
+        <label for="narozeni">Datum narození</label>
+        <div class="narozeni">
+            <input type="date" name="narozeni" id="narozeni">
+        </div>
+    </div>
+    <div class="fotka2">
+        <label for="fotka">Nahraj si svoji profilovku</label>
+        <div class="fotka">
+            <input type="file" name="fotka" id="fotka">
+        </div>
+    </div>
+    <div class="info2">
+        <label for="info">Napište něco málo o sobě</label>
+         
+        <input  type="text" class="info" name="info" id="info"> 
+        
+    </div>
+    <div class="znalosti2">
+        <label for="znalosti">Znalosti</label>
+        <div class="znalosti" id="znalosti">
+            <label for="zacatecnik">Začátečník</label>
+            <input type="radio" name="znalosti" id="zacatecnik" value="zacatecnik">
+
+            <label for="pokrocily">Pokročilý</label>
+            <input type="radio" name="znalosti" id="pokrocily" value="pokrocily">
+
+            <label for="expert">Expert</label>
+            <input type="radio" name="znalosti" id="expert" value="expert">
+        </div>
+    </div>
+    <div class="zajmy2">
+        <label for="zajmy">Zájmy</label>
+        <div class="zaliby" id="zajmy">
+            <label for="motorky">Motorky</label>
+            <input type="checkbox" name="motorky" id="motorky">
+
+            <label for="fotografovani">Fotografování</label>
+            <input type="checkbox" name="fotografovani" id="fotografovani">
+
+            <label for="webdesign">Webdesign</label>
+            <input type="checkbox" name="webdesign" id="webdesign">
+        </div>
+    </div>
+    <div class="pohlavi2">
+        <label for="pohlavi">Výběr pohlaví</label>
+        <div class="pohlavi">
+            <select name="pohlavi" id="pohlavi">
+                <option>Muž</option>
+                <option>Žena</option>
+            </select>
+        </div>
+    </div>        
+        <button class="novinky" type="submit">CHCI DOSTÁVAT NOVINKY!</button>
+</div>
+</body>
+</html>

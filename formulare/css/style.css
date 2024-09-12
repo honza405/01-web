@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    display: grid;
+    width: 90%;
+    justify-content: center;
+}
+
+.jmeno {
+   padding-bottom: 15px;
+}
+
+.jmeno2 {
+    
+}
+
+.prijmeni {
+    
+}
+
+.prijmeni2 {
+    
+    position: absolute;
+    left: 850px;
+    top: 37.5px;
+    padding-bottom: 15px;   
+}
+
+.email {
+
+}
+
+.email2 {
+    padding-bottom: 15px;
+}
+
+.heslo {
+
+}
+
+.heslo2 {
+    
+    position: absolute;
+    left: 850px;
+    top: 92px;
+    padding-bottom: 15px;   
+}
+
+.narozeni {
+
+}
+
+.narozeni2 {
+    padding-bottom: 15px;
+}
+
+.fotka {
+
+}
+
+.fotka2 {
+    
+    position: absolute;
+    left: 850px;
+    top: 146.5px;
+    padding-bottom: 15px;   
+}
+
+.info {
+    display: block;
+    width: 350px;
+    height: 100px;
+}
+
+.info2 {
+    padding-bottom: 15px;
+}
+
+.znalosti {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 15px;
+}
+
+.znalosti2 {
+    padding-bottom: 15px;
+}
+
+.zajmy {
+    padding-bottom: 15px;
+}
+
+.zajmy2 {
+    padding-bottom: 15px;
+}
+
+.pohlavi {
+
+}
+
+.pohlavi2 {
+    padding-bottom: 15px;
+}
+
+.novinky {
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    width: 250px;
+}
