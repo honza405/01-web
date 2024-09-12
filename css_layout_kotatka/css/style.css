@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,500&family=Yeseva+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --coral: #E87774;
+    --coral-transparent: rgba(232,119,116,0.75);
+    --note-background: #EAE9F6;
+    --text-color: #332838;
+    --heading-font: 'Yeseva One', cursive;
+    --body-font: 'Poppins', sans-serif;
+}
+
+.navbar {
+    width: 1440px;
+    height: 65px;
+}
+
+.logoC {
+    margin-top: 17px;
+    margin-left: 143px;
+}
+
+.odkazy {
+    width: 457px;
+    height: 30px;
+    font-family:'Poppins', sans-serif;
+    font-weight: 500px;
+    font-size: 20px;
+    color: #E87774;
+    position: absolute;
+    top: 10px;
+    bottom: 18px;
+    right: 119px;
+    left: 864px;
+}
+
+.domu {
+    text-decoration: none;
+    color: #E87774;
+    padding-right: 46px;
+}
+
+.kotatka {
+    text-decoration: none;
+    color: #E87774;
+    padding-right: 44px;
+}
+
+.nasutulek {
+    text-decoration: none;
+    color: #E87774;
+    padding-right: 30px;
+}
+
+.kontakt {
+    text-decoration: none;
+    color: #E87774;
+}
+
+.banner {
+    background-image: url(../images/banner.png);
+    height: 482px;
+}
+
+.bannernadpis {
+    position: absolute;
+    left: 317px;
+    top: 260px;
+    font-family: 'Yeseva one', sans-serif;
+    font-size: 72px;
+    color: white;
+    font-weight: 400px;
+    background-color: rgba(232,119,116,0.75);
+}
+
