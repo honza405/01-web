@@ -84,20 +84,27 @@
     color: #E87774;
     font-family: 'Yeseva one', sans-serif;
     font-size: 36px;
+    position: absolute;
+    left: 120px;
+    top: 575px;
 }
 
 .felix {
-
+    color: #332838;
+    
 }
 
 .feliximg {
-
+    width: 225px;
+    height: 276px;
 }
 
 .felixnadpis {
-
+    font-size: 28px;
+    font-family: 'Yeseva one', sans-serif;
 }
 
 .felixtext {
-    
+    font-family: 'Poppins regular', sans-serif;
+    font-size: 16px;
 }
