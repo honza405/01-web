@@ -95,8 +95,11 @@
 }
 
 .feliximg {
-    width: 225px;
-    height: 276px;
+    width: 276px;
+    height: 225px;
+    position: absolute;
+    left: 120px;
+    top: 666px;
 }
 
 .felixnadpis {
