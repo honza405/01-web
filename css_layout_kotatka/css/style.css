@@ -286,3 +286,133 @@
     line-height: 24px;
     font-weight: 400px;
 }
+
+.inzeraty {
+    color: #E87774;
+    font-family: 'Yeseva one', sans-serif;
+    font-size: 36px;
+    position: absolute;
+    left: 1043px;
+    top: 575px;
+}
+
+.honza {
+    width: 276px;
+    height: 160px;
+    color: #332838;
+    font-family: Poppins Regular, sans-serif;
+}
+
+.honzadatum {
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 1057px;
+    top: 670px;
+}
+
+.honzanadpis {
+    font-family: Poppins Bold, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    position: absolute;
+    left: 1057px;
+    top: 696px;
+}
+
+.honzatext {
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 1057px;
+    top: 725px;
+}
+
+.honzaemail {
+    font-family: Poppins Medium Italic, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 1057px;
+    top: 793px;
+}
+.marcela {
+    width: 276px;
+    height: 229px;
+    color: #332838;
+    font-family: Poppins Regular, sans-serif;
+}
+
+.marceladatum {
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 1057px;
+    top: 843px;
+}
+
+.marcelanadpis {
+    font-family: Poppins Bold, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    position: absolute;
+    left: 1057px;
+    top: 868px;
+}
+
+.marcelatext {
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 1055px;
+    top: 917px;
+}
+
+.marcelaemail {
+    font-family: Poppins Medium Italic, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 1055px;
+    top: 1015px;
+}
+.ivan {
+    width: 276px;
+    height: 207px;
+    color: #332838;
+    font-family: Poppins Regular, sans-serif;
+}
+
+.ivandatum {
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 1057px;
+    top: 1086px;
+}
+
+.ivannadpis {
+    font-family: Poppins Bold, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    position: absolute;
+    left: 1057px;
+    top: 1111px;
+}
+
+.ivantext {
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 1055px;
+    top: 1138px;
+}
+
+.ivanemail {
+    font-family: Poppins Medium Italic, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 1055px;
+    top: 1258px;
+}
