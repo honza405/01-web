@@ -18,9 +18,39 @@
     height: 65px;
 }
 
+@media(max-width: 380px) {
+    .navbar {
+        width: 380px;
+        height: 320px;
+        background-color: #E87774;
+    }
+}
+
 .logoC {
     margin-top: 17px;
     margin-left: 143px;
+}
+
+@media (max-width: 380px) {
+    .logoC {
+        display: none;
+    }
+}
+
+.logoW {
+    display: none;
+}
+
+@media (max-width: 380px) {
+    .logoW {
+        display: block;
+        width: 154px;
+        height: 32px;
+        position: absolute;
+        left: 113px;
+        right: 113px;
+        top: 49px;
+    }
 }
 
 .odkazy {
@@ -37,16 +67,46 @@
     left: 864px;
 }
 
+@media (max-width: 380px) {
+    .odkazy {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 147px;
+        height: 168px;
+        color: #EAE9F6;
+        line-height: 30px;
+        left: 116px;
+        top: 116px;
+    }
+}
+
+
 .domu {
     text-decoration: none;
     color: #E87774;
     padding-right: 46px;
 }
 
+@media (max-width: 380px) {
+    .domu {
+        padding-right: 0;
+        color: #EAE9F6;
+    }
+}
+
+
 .kotatka {
     text-decoration: none;
     color: #E87774;
     padding-right: 44px;
+}
+
+@media (max-width: 380px) {
+    .kotatka {
+        padding-right: 0;
+        color: #eae9f6;
+    }
 }
 
 .nasutulek {
@@ -55,14 +115,34 @@
     padding-right: 30px;
 }
 
+@media (max-width: 380px) {
+    .nasutulek {
+        padding-right: 0;
+        color:#EAE9F6;
+    }
+}
+
 .kontakt {
     text-decoration: none;
     color: #E87774;
 }
 
+@media (max-width: 380px) {
+    .kontakt {
+        color: #EAE9F6;
+    }
+}
+
 .banner {
     background-image: url(../images/banner.png);
     height: 482px;
+}
+
+@media (max-width: 380px) {
+    .banner {
+        height: 213px;
+        width: 380px;
+    }
 }
 
 .bannernadpis {
@@ -287,6 +367,11 @@
     font-weight: 400px;
 }
 
+.inzerat {
+    width: 251px;
+    height: 711px;
+}
+
 .inzeraty {
     color: #E87774;
     font-family: 'Yeseva one', sans-serif;
@@ -326,6 +411,7 @@
     position: absolute;
     left: 1057px;
     top: 725px;
+    right: 131px;
 }
 
 .honzaemail {
@@ -358,6 +444,7 @@
     position: absolute;
     left: 1057px;
     top: 868px;
+    right: 131px;
 }
 
 .marcelatext {
@@ -366,6 +453,7 @@
     position: absolute;
     left: 1055px;
     top: 917px;
+    right: 133px;
 }
 
 .marcelaemail {
@@ -375,6 +463,7 @@
     position: absolute;
     left: 1055px;
     top: 1015px;
+    right: 134px;
 }
 .ivan {
     width: 276px;
@@ -406,6 +495,7 @@
     position: absolute;
     left: 1055px;
     top: 1138px;
+    right: 133px;
 }
 
 .ivanemail {
