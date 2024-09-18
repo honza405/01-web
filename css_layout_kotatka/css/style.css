@@ -140,6 +140,7 @@
 
 @media (max-width: 380px) {
     .banner {
+        background-image: url(../images/banner.png);
         height: 213px;
         width: 380px;
     }
@@ -156,6 +157,18 @@
     background-color: rgba(232,119,116,0.75);
 }
 
+@media (max-width: 380px) {
+    .bannernadpis {
+        width: 347px;
+        height: 105px;
+        font-size: 36px;
+        text-align: center;
+        left: 16px;
+        top: 373px;
+        font-weight: 300;
+    }
+}
+
 .mazlicci {
     color: #332838;
 }
@@ -169,12 +182,28 @@
     top: 575px;
 }
 
+@media (max-width: 380px) {
+    .prohlidnete {
+        left: 16px;
+        top: 565px;
+        font-size: 28px;
+        text-align: center;
+    }
+}
+
 .feliximg {
     width: 276px;
     height: 225px;
     position: absolute;
     left: 120px;
     top: 666px;
+}
+
+@media (max-width: 380px) {
+    .feliximg {
+        left: 52px;
+        top: 653px;
+    }
 }
 
 .felixnadpis {
@@ -187,6 +216,13 @@
     height: 60px;
     text-align: center;
     padding-top: 15px;
+}
+
+@media (max-width: 380px) {
+    .felixnadpis {
+        left: 52px;
+        top: 878px;
+    }   
 }
 
 .felixtext {
@@ -202,12 +238,26 @@
     font-weight: 400px;
 }
 
+@media (max-width: 380px) {
+    .felixtext {
+        left: 52px;
+        top: 928px;
+    }   
+}
+
 .rosalindaimg {
     width: 276px;
     height: 225px;
     position: absolute;
     left: 428px;
     top: 666px;
+}
+
+@media (max-width: 380px) {
+    .rosalindaimg {
+        left: 52px;
+        top: 1048px;
+    }   
 }
 
 .rosalindanadpis {
@@ -220,6 +270,13 @@
     height: 60px;
     text-align: center;
     padding-top: 15px;
+}
+
+@media (max-width: 380px) {
+    .rosalindanadpis {
+        left: 52px;
+        top: 1273px;
+    }   
 }
 
 .rosalindatext {
@@ -235,12 +292,26 @@
     font-weight: 400px;
 }
 
+@media (max-width: 380px) {
+    .rosalindatext {
+        left: 52px;
+        top: 1323px;
+    }   
+}
+
 .fousekimg {
     width: 276px;
     height: 225px;
     position: absolute;
     left: 736px;
     top: 666px;
+}
+
+@media (max-width: 380px) {
+    .fousekimg {
+        left: 52px;
+        top: 1450px;
+    }   
 }
 
 .fouseknadpis {
@@ -253,6 +324,13 @@
     height: 60px;
     text-align: center;
     padding-top: 15px;
+}
+
+@media (max-width: 380px) {
+    .fouseknadpis {
+        left: 52px;
+        top: 1675px;
+    }   
 }
 
 .fousektext {
@@ -268,12 +346,26 @@
     font-weight: 400px;
 }
 
+@media (max-width: 380px) {
+    .fousektext {
+        left: 52px;
+        top: 1725px;
+    }   
+}
+
 .kiraimg {
     width: 276px;
     height: 225px;
     position: absolute;
     left: 120px;
     top: 1061px;
+}
+
+@media (max-width: 380px) {
+    .kiraimg {
+        left: 52px;
+        top: 1845px;
+    }   
 }
 
 .kiranadpis {
@@ -286,6 +378,13 @@
     height: 60px;
     text-align: center;
     padding-top: 15px;
+}
+
+@media (max-width: 380px) {
+    .kiranadpis {
+        left: 52px;
+        top: 2070px;
+    }   
 }
 
 .kiratext {
@@ -301,12 +400,26 @@
     font-weight: 400px;
 }
 
+@media (max-width: 380px) {
+    .kiratext {
+        left: 52px;
+        top: 2120px;
+    }   
+}
+
 .susimg {
     width: 276px;
     height: 225px;
     position: absolute;
     left: 428px;
     top: 1061px;
+}
+
+@media (max-width: 380px) {
+    .susimg {
+        left: 52px;
+        top: 2240px;
+    }   
 }
 
 .susnadpis {
@@ -319,6 +432,13 @@
     height: 60px;
     text-align: center;
     padding-top: 15px;
+}
+
+@media (max-width: 380px) {
+    .susnadpis {
+        left: 52px;
+        top: 2465px;
+    }   
 }
 
 .sustext {
@@ -334,12 +454,26 @@
     font-weight: 400px;
 }
 
+@media (max-width: 380px) {
+    .sustext {
+        left: 52px;
+        top: 2515px;
+    }   
+}
+
 .usiskoimg {
     width: 276px;
     height: 225px;
     position: absolute;
     left: 736px;
     top: 1061px;
+}
+
+@media (max-width: 380px) {
+    .usiskoimg {
+        left: 52px;
+        top: 2633px;
+    }   
 }
 
 .usiskonadpis {
@@ -354,6 +488,13 @@
     padding-top: 15px;
 }
 
+@media (max-width: 380px) {
+    .usiskonadpis {
+        left: 52px;
+        top: 2860px;
+    }   
+}
+
 .usiskotext {
     font-family: 'Poppins regular', sans-serif;
     font-size: 16px;
@@ -365,6 +506,13 @@
     top: 1336px;
     line-height: 24px;
     font-weight: 400px;
+}
+
+@media (max-width: 380px) {
+    .usiskotext {
+        left: 52px;
+        top: 2910px;
+    }   
 }
 
 .inzerat {
@@ -381,11 +529,27 @@
     top: 575px;
 }
 
+
+@media (max-width: 380px) {
+    .inzeraty {
+        left: 132px;
+        top: 3032px;
+        font-size: 28px;
+    }
+}
+
 .honza {
     width: 276px;
     height: 160px;
     color: #332838;
     font-family: Poppins Regular, sans-serif;
+}
+
+
+@media (max-width: 380px) {
+    .honza {
+        display: none;
+    }
 }
 
 .honzadatum {
@@ -394,6 +558,13 @@
     position: absolute;
     left: 1057px;
     top: 670px;
+}
+
+@media (max-width: 380px) {
+    .honzadatum {
+        left: 66px;
+        top: 3127px;
+    }
 }
 
 .honzanadpis {
@@ -405,6 +576,14 @@
     top: 696px;
 }
 
+
+@media (max-width: 380px) {
+    .honzanadpis {
+        left: 66px;
+        top: 3153px;
+    }
+}
+
 .honzatext {
     font-size: 12px;
     font-weight: 400;
@@ -413,6 +592,14 @@
     top: 725px;
     right: 131px;
 }
+
+@media (max-width: 380px) {
+    .honzatext {
+        left: 66px;
+        top: 3182px;
+    }
+}
+
 
 .honzaemail {
     font-family: Poppins Medium Italic, sans-serif;
@@ -427,6 +614,12 @@
     height: 229px;
     color: #332838;
     font-family: Poppins Regular, sans-serif;
+}
+
+@media (max-width: 380px) {
+    .marcela {
+        display: none;
+    }
 }
 
 .marceladatum {
@@ -470,6 +663,12 @@
     height: 207px;
     color: #332838;
     font-family: Poppins Regular, sans-serif;
+}
+
+@media (max-width: 380px) {
+    .ivan {
+        display: none;
+    }
 }
 
 .ivandatum {
