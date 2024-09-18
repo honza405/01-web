@@ -13,6 +13,12 @@
     --body-font: 'Poppins', sans-serif;
 }
 
+@media(max-width: 380px) {
+    body {
+        height: 3800px;
+    }
+}
+
 .navbar {
     width: 1440px;
     height: 65px;
@@ -545,13 +551,6 @@
     font-family: Poppins Regular, sans-serif;
 }
 
-
-@media (max-width: 380px) {
-    .honza {
-        display: none;
-    }
-}
-
 .honzadatum {
     font-size: 12px;
     font-weight: 400;
@@ -609,17 +608,19 @@
     left: 1057px;
     top: 793px;
 }
+
+@media(max-width: 380px) {
+    .honzaemail {
+        left: 66px;
+        top: 3250px;
+    }
+}
+
 .marcela {
     width: 276px;
     height: 229px;
     color: #332838;
     font-family: Poppins Regular, sans-serif;
-}
-
-@media (max-width: 380px) {
-    .marcela {
-        display: none;
-    }
 }
 
 .marceladatum {
@@ -628,6 +629,13 @@
     position: absolute;
     left: 1057px;
     top: 843px;
+}
+
+@media(max-width: 380px) {
+    .marceladatum {
+        left: 66px;
+        top: 3300px;
+    }
 }
 
 .marcelanadpis {
@@ -640,6 +648,13 @@
     right: 131px;
 }
 
+@media(max-width: 380px) {
+    .marcelanadpis {
+        left: 66px;
+        top: 3325px;
+    }
+}
+
 .marcelatext {
     font-size: 12px;
     font-weight: 400;
@@ -647,6 +662,13 @@
     left: 1055px;
     top: 917px;
     right: 133px;
+}
+
+@media(max-width: 380px) {
+    .marcelatext {
+        left: 66px;
+        top: 3374px;
+    }
 }
 
 .marcelaemail {
@@ -658,17 +680,19 @@
     top: 1015px;
     right: 134px;
 }
+
+@media(max-width: 380px) {
+    .marcelaemail {
+        left: 66px;
+        top: 3472px;
+    }
+}
+
 .ivan {
     width: 276px;
     height: 207px;
     color: #332838;
     font-family: Poppins Regular, sans-serif;
-}
-
-@media (max-width: 380px) {
-    .ivan {
-        display: none;
-    }
 }
 
 .ivandatum {
@@ -677,6 +701,13 @@
     position: absolute;
     left: 1057px;
     top: 1086px;
+}
+
+@media(max-width: 380px) {
+    .ivandatum {
+        left: 66px;
+        top: 3543px;
+    }
 }
 
 .ivannadpis {
@@ -688,6 +719,13 @@
     top: 1111px;
 }
 
+@media(max-width: 380px) {
+    .ivannadpis {
+        left: 66px;
+        top: 3568px;
+    }
+}
+
 .ivantext {
     font-size: 12px;
     font-weight: 400;
@@ -697,6 +735,13 @@
     right: 133px;
 }
 
+@media(max-width: 380px) {
+    .ivantext {
+        left: 66px;
+        top: 3595px;
+    }
+}
+
 .ivanemail {
     font-family: Poppins Medium Italic, sans-serif;
     font-size: 12px;
@@ -704,4 +749,11 @@
     position: absolute;
     left: 1055px;
     top: 1258px;
+}
+
+@media(max-width: 380px) {
+    .ivanemail {
+        left: 66px;
+        top: 3715px;
+    }
 }
